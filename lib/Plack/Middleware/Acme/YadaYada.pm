@@ -1,7 +1,7 @@
 ## no critic (RequireUseStrict)
 package Plack::Middleware::Acme::YadaYada;
 BEGIN {
-  $Plack::Middleware::Acme::YadaYada::VERSION = '0.01'; # TRIAL
+  $Plack::Middleware::Acme::YadaYada::VERSION = '0.01';
 }
 
 ## use critic (RequireUseStrict)
@@ -67,7 +67,7 @@ returns "501 Not Implemented" if it encounters any.
 
 =head1 SEE ALSO
 
-L<perlop/Yada_Yada_Operator>
+L<perlop/Yada_Yada_Operator>, L<Plack::Middleware>
 
 =head1 AUTHOR
 
@@ -79,6 +79,15 @@ This software is copyright (c) 2011 by Rob Hoelz.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+http://github.com/hoelzro/plack-middleware-acme-yadayada/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
 
 =cut
 

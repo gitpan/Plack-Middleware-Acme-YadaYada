@@ -20,5 +20,8 @@ requires:
   Try::Tiny: 0
   parent: 0
   perl: 5.12.0
-resources: {}
+resources:
+  bugtracker: http://github.com/hoelzro/plack-middleware-acme-yadayada/issues
+  homepage: http://github.com/hoelzro/plack-middleware-acme-yadayada
+  repository: http://github.com/hoelzro/plack-middleware-acme-yadayada
 version: 0.01
